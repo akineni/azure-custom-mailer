@@ -7,7 +7,7 @@ To use this class, you can follow these steps:
  1. Create an instance of the AzureCustomMailer class using the create()
     method, passing the Azure endpoint and access key as arguments.
     
-    $mailer = AzureCustomMailer::create($$azureEndpoint, $azureAccessKey);
+    \$mailer = AzureCustomMailer::create(\$azureEndpoint, $azureAccessKey);
 
  2. Set the email properties such as sender, recipients, subject, body,
     attachments, and custom headers using the provided methods like
